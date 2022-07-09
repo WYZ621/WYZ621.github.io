@@ -1,0 +1,522 @@
+body
+		{
+		text-align: center;
+		margin: 0;
+		padding: 0;
+		border: 0;
+		background: #ffffff url("holder.gif") top center repeat-y;
+		}
+
+/*
+strong
+{
+		font-family:'微软雅黑';
+		font-size:14px;
+		color:#000;
+		font-weight:800;
+}
+*/
+
+/* ----------------------------------- wrapper ----------------------------------- */
+div#wrapper
+		{
+		margin: 0 auto;
+		padding: 0;
+		border: 0;
+		width: 1221px;
+		/* float: center; */
+		text-align: left;
+		background-color:#fafafa;
+		border-top: 0px solid #fff;
+		/*border-bottom: 20px solid #fff;*/
+		}
+
+/* ----------------------------------- home ----------------------------------- */
+div#home
+		{
+		margin: 0 0 0 0px; /*auto;*/
+		padding: 0;
+		border: 0;
+		width: 1221px;
+		height:550px;
+		float:center;
+		text-align: center;
+		background-color:#ffffff;
+		border-top: 80px solid #fff;
+		}
+
+div#home table img
+		{
+		width: 200px;
+		height:200px;
+		}
+
+
+/* ----------------------------------- header ----------------------------------- */
+div#header
+		{
+		margin: 0 0 0 0px;
+		padding: 0;
+		border: 0;
+		width: 1221px;
+		height: 175px;
+		/* background-color:#ff00ff;*/
+		background: transparent url("header.png") 0px 0px no-repeat;
+		}
+
+div#header	div#lang  /* 语言切换标志*/
+		{
+		float:right;
+		width:100px;
+		height:90px;
+		background-color:#ffefef;
+		}
+
+/* ----------------------------------- navfirst -----------------------------------*/
+div#navfirst
+		{
+		margin: 0 0 0 0px;
+		padding: 0;
+		border: 0;
+		width: 1221px;
+		height: 58px;
+		/*background-color:#00ffff;*/
+		}
+
+div#navfirst ul#menu
+		{
+		margin: 0;
+		padding: 0;
+		border: 0;
+		width: 1221px;
+		height: 58px;
+		background: transparent url("cols.png") top left no-repeat;
+		position: relative; /* 这个很重要*/
+		}
+
+div#navfirst ul#menu li
+		{
+		margin:0;
+		padding:0;
+		list-style:none;
+		position:absolute;
+		top:0;
+		}
+
+ul#menu li,ul#menu a
+		{
+		display: block;
+		height: 58px;
+		}
+
+div#navfirst ul#menu li a
+		{
+		text-indent: -9999px;
+		overflow:hidden;
+		text-decoration: none;
+		}
+
+#ca	{left:0;width:203px;}
+#cb	{left:205px;width:202px;}
+#cc	{left:409px;width:201px;}
+#cd {left:612px;width:201px;}
+#ce {left:815px;width:201px;}
+#cf {left:1018px;width:203px;}
+
+#ca a:hover {background: transparent url("cols.png") 0 -59px no-repeat;}
+#cb a:hover	{background: transparent url("cols.png") -205px -59px no-repeat;}
+#cc a:hover	{background: transparent url("cols.png") -409px -59px no-repeat;}
+#cd a:hover	{background: transparent url("cols.png") -612px -59px no-repeat;}
+#ce a:hover	{background: transparent url("cols.png") -815px -59px no-repeat;}
+#cf a:hover	{background: transparent url("cols.png") -1018px -59px no-repeat;}
+
+
+
+/* ----------------------------------- navsecond -----------------------------------*/
+div#navsecond {
+		margin: 0 0 0 0px;
+		padding: 0;
+		border: 0;
+		width: 203px;
+		float: left;
+		background : transparent;
+		font-family:Verdana, Arial, '宋体';
+		font-size:10px;
+		color:#0479A7;
+		/*background-color:#00ff00;*/
+		}
+
+div#navsecond a:link, div#navsecond a:visited	{
+	    text-decoration : none;
+		font-family:Verdana, Arial, '宋体';
+		font-size:18px;
+		font-weight:800;
+	    color:#000000;
+	    background : transparent;
+	   }
+
+div#navsecond a:hover	{
+	    text-decoration : none;
+		font-family:Verdana, Arial, '宋体';
+		font-size:18px;
+		font-weight:800;
+	    color : #04f9A7; 
+	    background : transparent;
+	    }
+
+div#col_title {
+		margin-top: 20px;
+		padding: 0;
+		border: 0;
+		width: 203px;
+		height:50px;
+		float: left;
+		font-family:'微软雅黑';
+		font-size:36px;
+		color:#0479A7;
+		text-align: center;
+		background-color:#e0f0f0;
+		font-weight:900;
+	}
+
+div#navsecond p	{
+	    margin: 12px 0 0 0;
+	    text-decoration : underline;
+		font-family:Verdana, Arial, '宋体';
+		font-size:20px;
+		font-weight:800;
+	}
+
+div#navsecond p.link{
+	    margin: 10px 0 0 20px;
+		text-decoration :none
+	}
+
+/* ----------------------------------- maincontent -----------------------------------*/
+div#maincontent {
+		margin: 0 0 0 0px;
+		padding: 0;
+		border: 0;
+		width: 810px;
+		float: left;
+		background-color:#ffffff;
+	    color:#0479A7;
+		}
+
+div#maincontent h1
+		{
+		font-family:'微软雅黑';
+		font-size: 20px;
+	    margin:15px 0 0 0px;
+		}
+
+div#maincontent h2
+		{
+		font-family:'微软雅黑';
+		font-size: 18px;
+		}
+
+div#maincontent h3,  div#maincontent h4
+		{
+		font-size: 16px;
+	    margin:20px 0 0 0;
+		}
+
+div#maincontent	div{
+	width: 790px;
+	margin: 0 0 0 10px;
+	padding: 10px 0 10px 0;
+	border:0;
+	border-top: 1px solid #aaa;
+	border-bottom: 0px solid #aaa;
+	}
+
+div#maincontent p
+	{
+	margin: 10px 0 0 15px;
+	line-height: 150%;
+	font-family:'宋体';
+	font-size: 16px;
+	}
+
+div#maincontent p.intro
+{
+		font-family:'楷体';
+		font-size:14px;
+		font-weight:600;
+}
+
+div#maincontent p.memo
+{
+		margin-top:10px;
+		margin-left:15px;
+		font-family:'微软雅黑';
+		font-size:14px;
+		color:#000;
+		font-weight:800;
+}
+
+div#maincontent p.notes
+{
+		margin-top:10px;
+		margin-left:0px;
+		font-family:'微软雅黑';
+		font-size:14px;
+		color:#000;
+		font-weight:800;
+}
+
+div#maincontent p.title
+{
+	    margin: 0 0 0 0;
+		font-family:'微软雅黑';
+		font-size:14px;
+		font-weight:600;
+		text-decoration :underline;
+}
+
+div#maincontent p.author
+{
+	    margin: 0 0 0 0;
+		font-family:Verdana, Arial, '宋体';
+		font-size:14px;
+}
+
+div#maincontent p.other  /*出版单位（期刊或会议）信息 */
+{
+	    margin: 0 0 0 0;
+		font-family:Verdana, Arial, '宋体';
+		font-size:14px;
+		font-style:bold;;
+}
+
+div#maincontent p.describe /*描述性文本 */
+{
+	    margin: 5px  0  0 40px;
+		font-family:Verdana, Arial, '宋体';
+		font-size:16px;
+		font-style:bold;;
+}
+
+div#maincontent p.teachitem /*教学项目 */
+{
+	    margin-left:60px;
+		font-family:Verdana, Arial, '宋体';
+		font-size:18px;
+		font-style:bold;
+		font-weight:600;
+}
+div#maincontent p.teachother /*教学项目 */
+{
+	    margin: 0  0  0 0px;
+	    margin-left:120px;
+		font-family:Verdana, Arial, '宋体';
+		font-size:14px;
+		font-style:bold;
+}
+
+div#maincontent font.isme   /* 表明自己姓名 */
+{
+		font-weight:600;
+}
+
+div#maincontent ul {
+	margin-top:10px;
+	margin-left:35px;
+	margin-bottom:0;
+	}
+
+div#maincontent ul.teach { /* 课程内容项目 */
+	margin-top:10px;
+	margin-left:40px;
+	margin-bottom:0;
+	}
+
+div#maincontent ol {
+	margin-top:10px;
+	margin-left:35px;
+	margin-bottom:0;
+	}
+
+div#maincontent li {
+	margin-top:3px;
+	}
+
+div#maincontent a:link, div#maincontent a:visited	{
+	    text-decoration : none;
+		font-family:Verdana, Arial, '宋体';
+		font-size:16px;
+		font-weight:800;
+	    color:#000000;
+	    background : transparent;
+	   }
+
+div#maincontent a:hover	{
+	    text-decoration : none;
+		font-family:Verdana, Arial, '宋体';
+		font-size:16px;
+		font-weight:800;
+	    color : #04f9A7; 
+	    background : transparent;
+	    }
+
+
+div#maincontent img.photo {
+	margin:10px 1px 10px 10px;
+	width:150px;
+	height:210px;
+	}
+
+
+div#maincontent img.book {
+	margin:10px 0px 10px 10px;
+	width:150px;
+	height:200px;
+	}
+
+
+div#maincontent img.paper {
+	margin:10px 1px 10px 10px;
+	width:250px;
+	height:100px;
+	}
+
+
+div#maincontent img.soft {
+	margin:10px 1px 10px 10px;
+	width:150px;
+	height:210px;
+	}
+
+div#maincontent img.patent {
+	margin:10px 1px 10px 10px;
+	width:150px;
+	height:210px;
+	}
+
+/* ----------------------------------- sidebar -----------------------------------*/
+
+div#sidebar {
+		margin: 0 0 0 0px;
+		padding: 0;
+		border: 1;
+		width: 206px;
+		float: right;
+		background: transparent;
+		}
+
+div#sidebar p
+	{
+	margin: 12px 0 0 0;
+	}
+
+/* ----------------------------------- news -----------------------------------*/
+
+div#news {
+		margin: 0 0 0 0px;
+	    padding:60px 0 10px 0;
+		border: 0;
+		width: 206px;
+		/*height:200px;*/
+		float: left;
+		background-color:#f0f0f0;
+		text-align: left;
+		font-family:Verdana, Arial, '宋体';
+		font-size:16px;
+	    color : #ff00ff;
+		font-weight:400;
+		background:transparent url("sidebar.png") 0px 0px no-repeat;
+		}
+
+div#news a:link, div#news a:visited	{
+	    text-decoration : none;
+		font-family:Verdana, Arial, '宋体';
+		font-size:16px;
+		font-weight:800;
+	    color:#ff0000;
+	    background : transparent;
+	   }
+
+div#news a:hover	{
+	    text-decoration : underline;
+		font-family:Verdana, Arial, '宋体';
+		font-size:16px;
+		font-weight:800;
+	    color : #f479A7; 
+	    background : transparent;
+	    }
+
+/* ----------------------------------- tools -----------------------------------*/
+
+div#tools {
+		margin: 0 0 0 0px;
+	    padding:60px 0 10px 0;
+		border: 0;
+		width: 206px;
+		/*height:200px;*/
+		float: left;
+		background-color:#f0f0f0;
+		text-align: left;
+		font-family:Verdana, Arial, '宋体';
+		font-size:16px;
+	    color : #ff00ff;
+		font-weight:400;
+		background:transparent url("sidebar.png") -206px 0px no-repeat;
+		}
+
+div#tools a:link, div#tools a:visited	{
+	    text-decoration : none;
+		font-family:Verdana, Arial, '宋体';
+		font-size:14px;
+		font-weight:800;
+	    color:#0479A7;
+	    background : transparent;
+	   }
+
+div#tools a:hover	{
+	    text-decoration : underline;
+		font-family:Verdana, Arial, '宋体';
+		font-size:14px;
+		font-weight:800;
+	    color : #0479A7; 
+	    background : transparent;
+	    }
+
+/* ----------------------------------- footer -----------------------------------*/
+div#footer
+		{
+		margin: 0 0 0 0px;
+		padding: 0;
+		border: 0;
+		width: 1221px;
+		clear: both;
+		background-color:#f0f0f0;
+		text-align: center;
+		}
+
+div#footer p
+		{
+		margin: 5px 10px 0 10px;
+		font-family:Verdana, Arial, '宋体';
+		font-size:12px;
+	    color : #0479A7;
+		font-weight:800;
+		}
+
+div#footer a:link, div#footer a:visited	{
+	text-decoration : none;
+	color:#000;
+	background : transparent;
+	} 
+
+div#footer a:hover	{
+	text-decoration : underline;
+	color : #000;
+	background : transparent;
+	}
+
+div#footer a:active	{
+	text-decoration : underline;
+	color : #000;
+	background : transparent;
+	}
